@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import "./styles/WhatIDo.css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import TechMarquee from "./TechMarquee";
 
 const WhatIDo = () => {
   const containerRef = useRef<(HTMLDivElement | null)[]>([]);
@@ -92,19 +93,6 @@ const WhatIDo = () => {
               <p>
                 I build full-stack applications end-to-end — React and Node.js on the frontend/backend, Python (Flask/FastAPI) for AI and data-driven systems, and I've increasingly leaned into AI-assisted development, using coding agents to ship faster without losing code quality.
               </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
-              </div>
               <div className="what-arrow"></div>
             </div>
           </div>
@@ -132,22 +120,12 @@ const WhatIDo = () => {
               <p>
                 I hold a 4-year Fine Arts diploma, and that visual-design background shows up in how I think about interfaces and presentation — it's part of why my projects tend to have a clean, considered UI rather than just working code.
               </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
-              </div>
               <div className="what-arrow"></div>
             </div>
           </div>
         </div>
       </div>
+      <TechMarquee />
     </div>
   );
 };

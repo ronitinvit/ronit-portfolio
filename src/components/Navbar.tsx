@@ -48,11 +48,11 @@ const Navbar = () => {
           {getTimeGreeting()}
         </a>
         <a
-          href="mailto:ronit.mahato2023@vitstudent.ac.in"
+          href="mailto:ronitmahato26@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          ronit.mahato2023@vitstudent.ac.in
+          ronitmahato26@gmail.com
         </a>
         <ul>
           <li>
