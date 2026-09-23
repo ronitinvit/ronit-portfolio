@@ -1,5 +1,6 @@
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { getTimeGreeting } from "./utils/timeGreeting";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
@@ -44,7 +45,7 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+          {getTimeGreeting()}
         </a>
         <a
           href="mailto:ronit.mahato2023@vitstudent.ac.in"
